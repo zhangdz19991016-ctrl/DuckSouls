@@ -1,0 +1,45 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <DuckovPath>D:\SteamLibrary\steamapps\common\Escape from Duckov</DuckovPath>
+    
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <LangVersion>9.0</LangVersion>
+    
+    
+    <RootNamespace>DuckSoulsDLC</RootNamespace>
+    <AssemblyName>DuckSoulsDLC</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="$(DuckovPath)\..\..\workshop\content\3167020\3589088839\0Harmony.dll">
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="$(DuckovPath)\Duckov_Data\Managed\TeamSoda.*.dll">
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="$(DuckovPath)\Duckov_Data\Managed\ItemStatsSystem.dll">
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="$(DuckovPath)\Duckov_Data\Managed\Unity*.dll">
+      <Private>false</Private>
+    </Reference>
+    
+    <Reference Include="$(DuckovPath)\Duckov_Data\Managed\Assembly-CSharp.dll">
+      <Private>false</Private>
+    </Reference>
+    
+    <Reference Include="$(DuckovPath)\Duckov_Data\Managed\Sirenix.OdinInspector.Attributes.dll">
+      <Private>false</Private>
+    </Reference>
+    
+    <Reference Include="$(DuckovPath)\Duckov_Data\Managed\UniTask.dll">
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="$(DuckovPath)\Duckov_Data\Managed\Newtonsoft.Json.dll">
+      <Private>false</Private>
+    </Reference>
+  </ItemGroup>
+
+</Project>
